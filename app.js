@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>Message: Success Again</h4> <p>Version 1.1</p> <p>Authors: Craig & Joao This will deploy across 3 instances on commit </p> <a href="products">Products</a>');
+  res.send('<h1>Express Demo App</h1> <h4>Message: Success Again</h4> <p>Version 1.1</p> <p>Authors: Craig & Joao This will deploy across 2 instances on commit </p> <a href="products">Products</a>');
 })
 
 app.get('/products', (req, res) => {
